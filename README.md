@@ -1,6 +1,6 @@
 # 🔐 Password Generator (Version GUI)
 
-Un générateur de mots de passe moderne et sécurisé écrit en Python. Cette nouvelle version propose une interface graphique intuitive (Tkinter) pour faciliter la création et la gestion de vos mots de passe.
+Un générateur de mots de passe moderne et sécurisé écrit en Python. Cette nouvelle version propose une interface graphique intuitive (Tkinter) pour faciliter la création de vos mots de passe.
 
 ## ✨ Fonctionnalités
 
@@ -8,7 +8,6 @@ Un générateur de mots de passe moderne et sécurisé écrit en Python. Cette n
 - **Sécurisé** : Génération aléatoire robuste incluant lettres, chiffres et symboles.
 - **Copie Rapide** : Un bouton dédié pour copier votre mot de passe dans le presse-papiers en un clic.
 - **Gestion des Erreurs** : Retours visuels immédiats en cas de saisie incorrecte.
-- **Portable** : Possibilité de créer un exécutable (.exe) pour Windows sans installation de Python requise.
 
 ## 🚀 Installation & Utilisation
 
@@ -25,21 +24,6 @@ python interface.py
 ```
 
 *Note : La version console classique reste disponible via `python main.py`.*
-
-## 🛠️ Création de l'exécutable (.exe)
-
-Si vous souhaitez transformer ce script en un logiciel indépendant pour Windows :
-
-1. Installez PyInstaller :
-   ```bash
-   pip install pyinstaller
-   ```
-
-2. Générez le fichier .exe :
-   ```bash
-   pyinstaller --onefile --noconsole interface.py
-   ```
-   Retrouvez votre application dans le dossier `dist/`.
 
 ## 🎨 Aperçu de l'interface
 
