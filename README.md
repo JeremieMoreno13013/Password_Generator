@@ -49,15 +49,6 @@ Entrez la longueur du mot de passe : 12
 >> Mot de passe généré :  aB7!kL9#mP2$
 ```
 
-## 🤝 Contribution
-
-Les contributions sont les bienvenues ! Si vous avez des idées d'amélioration :
-1. Forkez le projet.
-2. Créez votre branche (`git checkout -b feature/AmeliorationIncroyable`).
-3. Committez vos changements (`git commit -m 'Ajout d'une fonctionnalité'`).
-4. Pushez sur la branche (`git push origin feature/AmeliorationIncroyable`).
-5. Ouvrez une Pull Request.
-
 ## 📄 Licence
 
 Ce projet est sous licence libre. N'hésitez pas à l'utiliser et à le modifier à votre guise.
