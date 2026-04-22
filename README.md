@@ -23,8 +23,6 @@ Pour utiliser l'interface graphique, exécutez :
 python interface.py
 ```
 
-*Note : La version console classique reste disponible via `python main.py`.*
-
 ## 🎨 Aperçu de l'interface
 
 L'application comporte :
