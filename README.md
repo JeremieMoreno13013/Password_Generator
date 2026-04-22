@@ -1,53 +1,53 @@
-# 🔐 Password Generator
+# 🔐 Password Generator (Version GUI)
 
-Un générateur de mots de passe simple, sécurisé et efficace écrit en Python. Ce script permet de créer des mots de passe robustes incluant des lettres, des chiffres et des caractères spéciaux.
+Un générateur de mots de passe moderne et sécurisé écrit en Python. Cette nouvelle version propose une interface graphique intuitive (Tkinter) pour faciliter la création et la gestion de vos mots de passe.
 
 ## ✨ Fonctionnalités
 
-- **Sécurisé** : Utilise les modules standards de Python (`random` et `string`) pour générer des combinaisons aléatoires.
-- **Flexible** : Permet de choisir la longueur souhaitée du mot de passe.
-- **Robuste** : Gestion complète des erreurs de saisie (entrées non numériques, longueur négative ou trop élevée).
-- **Interactif** : Interface simple en ligne de commande (CLI).
-- **Sécurité intégrée** : Limite maximale de 128 caractères pour éviter les abus de mémoire.
+- **Interface Graphique (GUI)** : Une fenêtre moderne et centrée pour une utilisation simplifiée.
+- **Sécurisé** : Génération aléatoire robuste incluant lettres, chiffres et symboles.
+- **Copie Rapide** : Un bouton dédié pour copier votre mot de passe dans le presse-papiers en un clic.
+- **Gestion des Erreurs** : Retours visuels immédiats en cas de saisie incorrecte.
+- **Portable** : Possibilité de créer un exécutable (.exe) pour Windows sans installation de Python requise.
 
-## 🚀 Installation
+## 🚀 Installation & Utilisation
 
 ### Prérequis
 
-Assurez-vous d'avoir Python installé sur votre machine (version 3.6 ou supérieure recommandée).
+Assurez-vous d'avoir Python 3.14 (ou version supérieure) installé.
+
+### Lancer l'application
+
+Pour utiliser l'interface graphique, exécutez :
 
 ```bash
-python --version
+python interface.py
 ```
 
-### Cloner le dépôt
+*Note : La version console classique reste disponible via `python main.py`.*
 
-```bash
-git clone https://github.com/JeremieMoreno13013/Password_Generator.git
-cd Password_Generator
-```
+## 🛠️ Création de l'exécutable (.exe)
 
-## 🛠️ Utilisation
+Si vous souhaitez transformer ce script en un logiciel indépendant pour Windows :
 
-Pour lancer le script, exécutez la commande suivante dans votre terminal :
+1. Installez PyInstaller :
+   ```bash
+   pip install pyinstaller
+   ```
 
-```bash
-python main.py
-```
+2. Générez le fichier .exe :
+   ```bash
+   pyinstaller --onefile --noconsole interface.py
+   ```
+   Retrouvez votre application dans le dossier `dist/`.
 
-Ensuite, suivez les instructions à l'écran :
-1. Entrez la longueur souhaitée pour votre mot de passe (ex: 16).
-2. Copiez votre mot de passe généré !
+## 🎨 Aperçu de l'interface
 
-## 📝 Exemple
-
-```text
-=== [GESTIONNAIRE DE MOTS DE PASSE] ===
-
-Entrez la longueur du mot de passe : 12
-
->> Mot de passe généré :  aB7!kL9#mP2$
-```
+L'application comporte :
+- Un champ de saisie pour la longueur du mot de passe.
+- Un bouton de génération dynamique avec effet de survol.
+- Un affichage clair du mot de passe généré.
+- Un bouton de copie avec confirmation visuelle ("✅ Copié !").
 
 ## 📄 Licence
 
