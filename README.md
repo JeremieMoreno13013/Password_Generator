@@ -1,2 +1,2 @@
 # Password_Generator
-Script for Generate Password secured
+Script for Generate a secured password.
